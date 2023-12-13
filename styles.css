@@ -394,6 +394,16 @@ footer{
     .product-display h4{
         font-size: 1.7rem;
     }
+
+    /**About page**/
+    main{
+        height: 180vh;
+        background-image: url(img/about/sunguk-kim-o9RLeUVowG8-unsplash.jpg);
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
 
 }
@@ -500,4 +510,23 @@ footer{
     .product-gallery img{
         width: 100%;
     }
+
+    /**About page**/
+    main{
+        height: 180vh;
+        background-image: url(img/about/sunguk-kim-o9RLeUVowG8-unsplash.jpg);
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content{
+        background-color: var(--white);
+        margin: 0;
+        padding: 1.5rem;
+        width: 80%;
+        height: 60%;
+        text-align: center;
+        border-radius: 2rem;
 }
