@@ -190,8 +190,16 @@ nav li a:hover{
     row-gap: 1.875rem;
 }
 
+.flex-products h4{
+    color: var(--dark-p);
+}
+
 .flex-products h4:nth-child(odd){
     color: var(--p);
+}
+
+.flex-products h4:hover{
+    color: var(--light-p);
 }
 
 /**************HOME GALLERY*************************/
