@@ -213,15 +213,16 @@ nav li a:hover{
 
 /****************PRODUCT PAGE*******************/
 .back-nav{
-
+    display: flex;
+    align-items: center;
 }
 
 .product-display{
-
+    display: flex;
 }
 
 .product-gallery{
-    
+
 }
 
 .product-page-add-ons{
