@@ -267,11 +267,11 @@ footer{
 @media screen and (max-width: 30em){
 
      h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .fa-pen-fancy{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     h2{
@@ -298,4 +298,36 @@ footer{
     }
 
     
+    .hero h2{
+        font-size: 1rem;
+    }
+
+    .hero h3{
+        font-size: 0.5rem;
+    }
+
+    .flex-products{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        row-gap: 1.875rem;
+    }
+
+    .products img{
+        max-width: 20rem;
+    }
+    
+    .add-ons img{
+        max-width: 25rem;
+        max-height: 25rem;
+        object-fit: cover;
+    }
+
+    h4{
+        font-size: 0.8rem;
+    }
+    
+
 }
