@@ -65,6 +65,10 @@ header{
     column-gap: .3125rem;
 }
 
+header a{
+    text-decoration: none;
+}
+
 h1{
     margin: 0;
     font-weight: 900;
@@ -88,7 +92,6 @@ h1 span{
 nav{
     margin: 0;
     display: flex;
-    width: 100vw;
     background-color: var(--p);
     justify-content: center;
 }
@@ -170,7 +173,7 @@ nav li a:hover{
 
 /*************PRODUCTS*******************/
 .products img{
-    width: 25rem;
+    max-width: 25rem;
 }
 
 .add-ons img{
