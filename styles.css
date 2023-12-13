@@ -276,10 +276,6 @@ nav li a:hover{
     max-width: 35rem;
 }
 
-.product-page-add-ons{
-
-}
-
 
 
 /**************FOOTER**************************/
@@ -336,6 +332,20 @@ footer{
         height: 18rem;
     }
 
+    /***product page***/
+    .back-nav{
+        font-size: 1.5rem;
+    }
+    
+    
+    .product-display{
+        flex-direction: column;
+    }
+    
+    .product-display h4{
+        font-size: 1.7rem;
+    }
+    
 
 }
 
@@ -420,4 +430,25 @@ footer{
         grid-column-end: 1;
     }
 
+    /***product page***/
+    
+    .product-display h4{
+        font-size: 1.3rem;
+    }
+
+    .fa-cart-shopping{
+        font-size: 1.5rem;
+    }
+    
+    .product-gallery{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        flex-wrap: wrap;
+        gap: 1rem 0rem;
+    }
+    
+    .product-gallery img{
+        width: 100%;
+    }
 }
