@@ -50,7 +50,8 @@ h5{
 }/*footer*/
 
 p{
-
+    margin: 0;
+    padding: 0.8rem;
 }
 
 
@@ -282,6 +283,46 @@ nav li a:hover{
 
 .product-gallery img{
     max-width: 35rem;
+}
+
+/****************ABOUT**************************/
+.title{
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-p);
+    justify-content: center;
+}
+
+.title h2{
+    color: var(--white);
+}
+
+.fa-book-open{
+    font-size: 2.5rem;
+    color: var(--light-p);
+    padding: 0 1rem;
+}
+
+main{
+    height: 100vh;
+    background-image: url(img/about/sunguk-kim-o9RLeUVowG8-unsplash.jpg);
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: var(--white);
+    margin: 0;
+    padding: 1.5rem;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border-radius: 2rem;
+    /*position: relative;
+    top: 50%;
+    transform: translateY(-50%);*/
 }
 
 
